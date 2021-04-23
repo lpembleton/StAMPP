@@ -1,0 +1,13 @@
+citHeader("To cite StAMPP in a publication use:")
+
+citEntry(
+entry="Article",
+title = "StAMPP: an R package for calculation of genetic differentiation and structure of mixed-ploidy level populations",
+journal= "Molecular Ecology Resources",
+year = "2013",
+author = "L.W. Pembleton, N.O.I Cogan and J.W. Forster",
+volume = "13",
+pages = "946-952",
+doi = "10.1111/1755-0998.12129",
+textVersion = "Pembleton LW, Cogan NOI, Forster JW (2013) StAMPP: an R package for calculation of genetic differentiation and structure of mixed-ploidy level populations. Molecular Ecology Resources 13(5), 946-952"
+)
