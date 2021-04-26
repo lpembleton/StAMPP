@@ -21,7 +21,7 @@ install.packages("StAMPP")
 ### Vignette
 
 A vignette describing the use of the package is available from within
-R (and [also here](https://cran.r-project.org/web/packages/StAMPP/StAMPP.pdf)). Load the package
+R (and [also here](https://cran.r-project.org/package=StAMPP/StAMPP.pdf)). Load the package
 and then use the `vignette` function.
 
 ```r
