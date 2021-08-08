@@ -2,6 +2,10 @@
 
 # *News*
 
+# StAMPP 1.6.3 _(2021-07-30)_
+## Other changes
+* updated maintainer email
+
 # StAMPP 1.6.2 _(2020-04-22)_
 ## Bug fixes
 * removed use of temp environment and associated unintentional binding to base environment 

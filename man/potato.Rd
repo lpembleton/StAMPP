@@ -58,7 +58,7 @@ A data frame with 30 rows and 48 variables:
 }
 }
 \source{
-The example genotype data is a subset of data from the publically avaliable Solcap potato dataset \url{http://solcap.msu.edu/potato_infinium.shtml} which was re-scored in GenomeStudio in diploid and tetraploid formats
+The example genotype data is a subset of data from the publically avaliable Solcap potato dataset which was re-scored in GenomeStudio in diploid and tetraploid formats
 }
 \usage{
 data(potato)
