@@ -10,11 +10,17 @@ StAMPP is an [R](https://www.r-project.org) package for the Statistical Analysis
 
 ### Installation
 
-You can install StAMPP from [CRAN](https://cran.r-project.org/package=StAMPP):
+You can install the latest stable version of StAMPP from [CRAN](https://cran.r-project.org/package=StAMPP):
 
 ```r
 install.packages("StAMPP")
 ```
+
+---
+
+### Version
+
+This GitHub responsibility hosts the latest version of StAMPP which may be a pre-alpha/alpha/beta development version. Please check CHANGELOG for details.
 
 ---
 
