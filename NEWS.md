@@ -2,6 +2,11 @@
 
 # *News*
 
+# StAMPP 1.6.3.9000 _(2021-11-27)_
+## Enhacements
+* updated the code for Neis genetic distance
+* added an experimental function for Neis DA 1983 genetic distance
+
 # StAMPP 1.6.3 _(2021-07-30)_
 ## Other changes
 * updated maintainer email

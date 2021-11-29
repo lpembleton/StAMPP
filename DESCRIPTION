@@ -3,8 +3,8 @@ Type: Package
 Title: Statistical Analysis of Mixed Ploidy Populations
 Depends: R (>= 3.2.0), pegas
 Imports: parallel, doParallel, foreach, adegenet, methods, utils
-Version: 1.6.3
-Date: 2021-07-30
+Version: 1.6.3.9000
+Date: 2021-11-27
 Author: LW Pembleton
 Maintainer: LW Pembleton <lwpembleton@gmail.com>
 Description: Allows users to calculate pairwise Nei's Genetic Distances (Nei 1972), pairwise Fixation
@@ -15,6 +15,7 @@ Description: Allows users to calculate pairwise Nei's Genetic Distances (Nei 197
  allowing integration with other packages such adegenet.
  Please refer to LW Pembleton, NOI Cogan & JW Forster, 2013, Molecular Ecology Resources, 13(5), 946-952. <doi:10.1111/1755-0998.12129> for the appropriate citation and user manual. Thank you in advance.
 URL: https://github.com/lpembleton/StAMPP
+BugReports: https://github.com/lpembleton/StAMPP/issues
 License: GPL-3 
 RoxygenNote: 7.1.1
 Encoding: UTF-8
