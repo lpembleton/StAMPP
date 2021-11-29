@@ -22,7 +22,7 @@ The exported Phylip formated text file can be easily imported into sofware packa
 data(potato.mini, package="StAMPP")
 potato.freq <- stamppConvert(potato.mini, "r")
 # Calculate genetic distance between populations
-potato.D.pop <- stamppNeisD(potato.freq, TRUE)
+potato.D.pop <- stamppNeisD(potato.freq, TRUE, "standard")
 # Export the genetic distance matrix in Phylip format
 \dontrun{stamppPhylip(potato.D.pop, file="potato_distance.txt")}
 }
@@ -30,5 +30,5 @@ potato.D.pop <- stamppNeisD(potato.freq, TRUE)
 Perrier X, Jacquemound-Collet JP (2006) DARWin - Dissimilarity Analysis and Representation for Windows. Agricultural Research for Development
 }
 \author{
-Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+Luke Pembleton <lpembleton at barenbrug.com>
 }

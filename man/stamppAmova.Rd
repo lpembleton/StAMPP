@@ -28,7 +28,7 @@ This function uses the amova function from the PEGAS package.
 data(potato.mini, package="StAMPP")
 potato.freq <- stamppConvert(potato.mini, "r")
 # Calculate genetic distance between individuals
-potato.D.ind <- stamppNeisD(potato.freq, FALSE)
+potato.D.ind <- stamppNeisD(potato.freq, FALSE, "standard")
 # Calculate AMOVA
 stamppAmova(potato.D.ind, potato.freq, 100)
 }
@@ -36,5 +36,5 @@ stamppAmova(potato.D.ind, potato.freq, 100)
 Paradis E (2010) pegas: an R package for population genetics with an integrated-modular approach. Bioinformatics 26, 419-420. <doi:10.1093/bioinformatics/btp696>
 }
 \author{
-Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+Luke Pembleton <lpembleton at barenbrug.com>
 }

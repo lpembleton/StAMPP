@@ -40,5 +40,5 @@ Wright S (1949) The Genetical Structure of Populations. Annals of Human Genetics
 Weir BS, Cockerham CC (1984) Estimating F Statistics for the ANalysis of Population Structure. Evolution 38, 1358-1370. <doi:10.2307/2408641>
 }
 \author{
-Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+Luke Pembleton <lpembleton at barenbrug.com>
 }

@@ -24,5 +24,5 @@ data(potato.mini, package="StAMPP")
 potato.freq <- stamppConvert(potato.mini, "r")
 }
 \author{
-Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+Luke Pembleton <lpembleton at barenbrug.com>
 }

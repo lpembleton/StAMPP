@@ -26,5 +26,5 @@ potato.fst <- stamppGmatrix(potato.freq)
 Yang J, Benyamin B, McEvoy BP, et al (2010) Common SNPs explain a large proportion of the heritability for human height. Nat Genet 42, 565-569. <doi:10.1038/ng.608>
 }
 \author{
-Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+Luke Pembleton <lpembleton at barenbrug.com>
 }

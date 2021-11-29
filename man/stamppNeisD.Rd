@@ -4,12 +4,14 @@
 \alias{stamppNeisD}
 \title{Genetic Distance Calculation}
 \usage{
-stamppNeisD(geno, pop = TRUE)
+stamppNeisD(geno, pop = TRUE, measure = "standard")
 }
 \arguments{
 \item{geno}{a data frame containing allele frequency data generated from stamppConvert, or a genlight object containing genotype data, individual IDs, population IDs and ploidy levels}
 
 \item{pop}{logical. True if genetic distance should be calculated between populations, false if it should be calculated between individual}
+
+\item{measure}{a character string defining the distance measure to use: "standard" for the Neis standard genetic distance 1972 or "DA" for Neis DA distance 1983.}
 }
 \value{
 A object of class matrix which contains the genetic distance between each population or individual
@@ -22,13 +24,13 @@ This function calculates Nei's genetic distance (Nei 1972) between populations o
 data(potato.mini, package="StAMPP")
 potato.freq <- stamppConvert(potato.mini, "r")
 # Calculate genetic distance between individuals
-potato.D.ind <- stamppNeisD(potato.freq, FALSE)
+potato.D.ind <- stamppNeisD(potato.freq, FALSE, "standard")
 # Calculate genetic distance between populations
-potato.D.pop <- stamppNeisD(potato.freq, TRUE)
+potato.D.pop <- stamppNeisD(potato.freq, TRUE, "standard")
 }
 \references{
 Nei M (1972) Genetic Distance between Populations. The American Naturalist 106, 283-292.
 }
 \author{
-Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+Luke Pembleton <lpembleton at barenbrug.com>
 }

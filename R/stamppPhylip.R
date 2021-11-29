@@ -10,11 +10,11 @@
 #' data(potato.mini, package="StAMPP")
 #' potato.freq <- stamppConvert(potato.mini, "r")
 #' # Calculate genetic distance between populations
-#' potato.D.pop <- stamppNeisD(potato.freq, TRUE)
+#' potato.D.pop <- stamppNeisD(potato.freq, TRUE, "standard")
 #' # Export the genetic distance matrix in Phylip format
 #' \dontrun{stamppPhylip(potato.D.pop, file="potato_distance.txt")}
 #' @references Perrier X, Jacquemound-Collet JP (2006) DARWin - Dissimilarity Analysis and Representation for Windows. Agricultural Research for Development
-#' @author Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+#' @author Luke Pembleton <llpembleton at barenbrug.com>
 #' @importFrom utils write.table
 #' @export
 stamppPhylip <-function(distance.mat, file=""){

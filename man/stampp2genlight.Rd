@@ -29,5 +29,5 @@ potato.freq <- stamppConvert(potato.mini, "r")
 potato.genlight <- stampp2genlight(potato.freq, TRUE)
 }
 \author{
-Luke Pembleton <luke.pembleton at agriculture.vic.gov.au>
+Luke Pembleton <lpembleton at barenbrug.com>
 }
