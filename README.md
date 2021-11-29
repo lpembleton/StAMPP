@@ -20,7 +20,7 @@ install.packages("StAMPP")
 
 ### Version
 
-This GitHub responsibility hosts the latest version of StAMPP which may be a pre-alpha/alpha/beta development version. Please check CHANGELOG for details.
+This GitHub responsibility hosts the latest version of StAMPP which may be a pre-alpha/alpha/beta development version. Please check NEWS.md for details.
 
 ---
 
