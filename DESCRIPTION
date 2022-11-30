@@ -14,7 +14,8 @@ Description: Allows users to calculate pairwise Nei's Genetic Distances (Nei 197
  utilise multithreading where available to allow efficient analysis of large datasets. StAMPP is able to handle genotype data from genlight objects 
  allowing integration with other packages such adegenet.
  Please refer to LW Pembleton, NOI Cogan & JW Forster, 2013, Molecular Ecology Resources, 13(5), 946-952. <doi:10.1111/1755-0998.12129> for the appropriate citation and user manual. Thank you in advance.
-URL: https://github.com/lpembleton/StAMPP
+URL: https://github.com/lpembleton/StAMPP,
+    https://lpembleton.github.io/StAMPP/
 BugReports: https://github.com/lpembleton/StAMPP/issues
 License: GPL-3 
 RoxygenNote: 7.1.1

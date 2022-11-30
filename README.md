@@ -1,4 +1,4 @@
-# StAMPP: Statistical Analysis of Mixed Ploidy Populations <img align="right" src="inst/StAMPP.svg" height="100">
+# StAMPP: Statistical Analysis of Mixed Ploidy Populations <img align="right" src="man/figures/StAMPP.svg" height="70">
 
 [Luke W Pembleton](https://lpembleton.rbind.io/)
 
